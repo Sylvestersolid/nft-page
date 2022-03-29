@@ -1,0 +1,97 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+  /* padding: 10%; */
+    text-align: center;
+  
+}
+section {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+}
+p {
+    font-size: 18px;
+    font-weight: 300;
+}
+hr {
+  margin: 20px 15px;
+  border-color: hsl(215, 32%, 27%);
+  color: hsl(215, 32%, 27%);
+}
+/* section */
+
+/* images prperties */
+.art {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+    color: none;
+}
+.jules {
+    width: 50px;
+    height: auto;
+    background-color: white;
+    border-radius: 50px;
+   border: solid 2px;
+    margin: 0 10px;
+}
+
+.id {
+    color: white;
+    text-align: left;
+}
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eth, .days {
+    display: inline;
+}
+.wyvern {
+    display: flex;
+    flex-direction: row;
+}
+.id, .text, .action {
+    padding: 0 5%;
+}
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+.text, .days {
+    color:hsl(215, 51%, 70%); 
+    
+}
+.id:hover {
+   color: hsl(178, 100%, 50%);
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
+.text {
+    text-align: left;
+}
+@media (max-width: 380px) {
+     body {
+         text-align: center;
+     }
+    section {
+        margin: auto;
+        
+        width: 250px;
+    }
+    .art {
+        width: 200px;
+    }
+    .text {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .jules {
+        margin: auto;
+    }
+}
